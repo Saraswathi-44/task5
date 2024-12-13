@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historical India</title>
+  <style>
+     h4
+	{
+	 color: black;
+         font-size:50px;
+       }
+ 
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: pink;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: black;
+      text-decoration: underline;
+      font-size: 18px;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    /* Home Section */
+    #home {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    #home img {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* Temples Section */
+    #temples {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #e9ecef;
+    }
+      
+
+    .temple {
+      width: 45%;
+      margin: 20px;
+      text-align: center;
+      background-color: whitesmoke;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .temple img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .temple h3 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    /* Gallery Section */
+    #gallery {
+      padding: 40px 20px;
+      background-color: lavender;
+    }
+
+    .gallery-category {
+      margin-bottom: 30px;
+    }
+
+    .gallery-category h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .gallery-item {
+      width: 30%;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 80%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Blog Section */
+    #blog {
+      padding: 40px 20px;
+      background-color: lightpink;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      border: none;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 40px 20px;
+      background-color: lightpink;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .temple {
+        width: 100%;
+      }
+
+      .gallery-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h4>Mumbai Diaries</h4>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#temples">Famous Places</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home Section -->
+<section id="home">
+  <h1>Explore the top most Visiting Places in Mumbai</h1>
+  <p>"Exploring Mumbai Diaries offers a deep dive into the soul of India’s financial capital. It uncovers the vibrant mix of cultures, daily challenges, aspirations, and untold stories, providing an intimate look at life in one of the world’s busiest cities."</p>
+  <img src="https://i.ytimg.com/vi/xHwRaIes_hg/maxresdefault.jpg" alt="Golden Temple">
+</section>
+
+<!-- Temples Section -->
+<section id="temples">
+  <h2>Iconic Landmarks of Mumbai</h2>
+  <div class="temple">
+    <img src="https://img.veenaworld.com/wp-content/uploads/2021/03/Gateway-of-India-Mumbai-History-and-Heritage.jpeg?imwidth=640" alt="Gateway of India,Mumbai">
+    <h3>Gateway of India,Mumbai</h3>
+    <p>The Gateway of India in Mumbai, built in 1924, is a historic monument with Indo-Saracenic architecture, symbolizing India's colonial history</p>
+    <a href="https://en.wikipedia.org/wiki/Gateway_of_India" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/103703163.jpg?k=760f615013b8331e247fcd22e5a6c98be3a2dc24f664c74021c28dc820acbaaf&o=&hp=1" alt="taj-hotel">
+    <h3>taj-hotel,Mumbai</h3>
+    <p>The Taj Mahal Palace Hotel in Mumbai, established in 1903, is a symbol of luxury and heritage. Renowned for its stunning architecture, it offers world-class hospitality and picturesque sea views.</p>
+    <a href="https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://pohcdn.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/station.jpg" alt="Chhatrapati Shivaji Maharaj Terminus">
+    <h3>Chhatrapati Shivaji Maharaj Terminus</h3>
+    <p>Chhatrapati Shivaji Maharaj Terminus, built in 1888, is a UNESCO World Heritage Site, renowned for its Victorian Gothic architecture.</p>
+    <a href="https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Terminus" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdbkGWaoDuryizeUwT5XkoC8YDDcCE5Qe7pjEVswJUaJJ0E0YXwkf8SHQDWl_o2ipiI3ElOkRlltT12O_EwX14x_61F26ISZQJnK74n2wy5uRAAejaORv5NmA22vWuz9S4JqjP8wtrJ4tu/s1600/IMG_20180124_152811.jpg" alt="Dr. Bhau Daji Lad Museum">
+    <h3>Dr. Bhau Daji Lad Museum</h3>
+    <p>Dr. Bhau Daji Lad Museum in Mumbai showcases Mumbai's cultural heritage, featuring exhibits on decorative arts, crafts, and historical artifacts.</p>
+    <a href="https://en.wikipedia.org/wiki/Dr._Bhau_Daji_Lad_Museum" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+  <div class="temple">
+    <img src="https://www.shutterstock.com/image-photo/elephanta-island-about-mumbai-bombay-260nw-315118493.jpg" alt="Elephanta Caves">
+    <h3>Elephanta Caves</h3>
+    <p>Elephanta Caves, located on Elephanta Island near Mumbai, are ancient rock-cut temples, known for their impressive sculptures and Hindu mythology</p>
+    <a href="https://en.wikipedia.org/wiki/Elephanta_Caves" target="_blank" class="btn">Tap to Visit</a>
+  </div>
+
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery">
+  <h2>Mumbai's Timeless Heritage and Beauty</h2>
+  <div class="gallery-category">
+    <h3>Visiting Places</h3>
+    <div class="gallery-item"><img src="https://cdn.britannica.com/40/124440-050-621B7C6F/Gateway-of-India-Mumbai-Harbour.jpg" alt="Gateway of India,Mumbai"></div>
+    <div class="gallery-item"><img src="https://media.istockphoto.com/id/1008831236/photo/panoramic-view-of-marine-drive-at-dusk-mumbai-india.jpg?s=612x612&w=0&k=20&c=gZ_wmR5bWHCnbeGsXaXxPcv1XTmfGsYVcrzNzIr-aOY=" alt="Marine Drive,Mumbai"></div>
+    <div class="gallery-item"><img src="https://pohcdn.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/station.jpg" alt="Chhatrapati Shivaji Maharaj Terminus,Mumbai"></div>
+    <div class="gallery-item"><img src="https://www.shutterstock.com/image-photo/elephanta-island-about-mumbai-bombay-260nw-315118493.jpg" alt="Elephanta Caves,Mumbai"></div>
+    <div class="gallery-item"><img src="https://yometro.com/images/places/colaba-causeway.jpg" alt="Colaba Causeway,Mumbai"></div>
+    <div class="gallery-item"><img src="https://www.visittnt.com/blog/wp-content/uploads/2018/05/haji-ali-dargah.jpg" alt="Haji Ali Dargah,Mumbai"></div>
+    <div class="gallery-item"><img src="https://mumbaitourism.co.in/wp-content/uploads/2024/02/Juhu-Beach-in-Mumbai.webp" alt="Juhu Beach,Mumbai"></div>
+    <div class="gallery-item"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/103703163.jpg?k=760f615013b8331e247fcd22e5a6c98be3a2dc24f664c74021c28dc820acbaaf&o=&hp=1" alt="taj-hotel,Mumbai"></div>
+    <div class="gallery-item"><img src="https://www.hoteldekho.com/storage/img/tourattraction/1644843807IMG_20180902_110644-01.jpeg" alt="global vipassana pagoda,Mumbai"></div>
+    <div class="gallery-item"><img src="https://t4.ftcdn.net/jpg/10/17/91/83/360_F_1017918369_LH4jrlM6Swhbpq55f7sHEuevnHKNWkaq.jpg" alt="Bandra-Worli Sea Link,Mumbai"></div>
+    <div class="gallery-item"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/bb/e4/b2/caption.jpg?w=900&h=500&s=1" alt="Sri Sri Radha Gopinath Temple,Mumbai"></div>
+    <div class="gallery-item"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdbkGWaoDuryizeUwT5XkoC8YDDcCE5Qe7pjEVswJUaJJ0E0YXwkf8SHQDWl_o2ipiI3ElOkRlltT12O_EwX14x_61F26ISZQJnK74n2wy5uRAAejaORv5NmA22vWuz9S4JqjP8wtrJ4tu/s1600/IMG_20180124_152811.jpg" alt="Dr. Bhau Daji Lad Museum,Mumbai"></div>
+    <div class="gallery-item"><img src="https://sceneloc8.com/wp-content/uploads/2024/03/2-21.png" alt="Carter Road,Mumbai"></div>
+    <div class="gallery-item"><img src="https://i0.wp.com/zoroastrians.net/wp-content/uploads/2022/09/fair_0.jpg?fit=782%2C741&ssl=1" alt="bandra fair Basilica of Our Lady of the Mount,Mumbai"></div>
+    <div class="gallery-item"><img src="https://jetsettersush.com/wp-content/uploads/2024/11/IMG_20211124_113534-scaled-e1730913490316-1024x681.jpg" alt="Babulnath Temple,Mumbai"></div>
+
+
+  </div>
+  	
+    
+
+</section>
+
+<!-- Blog Section -->
+<section id="blog">
+  <h2>Read More About Mumbai's Timeless Heritage and Beauty</h2>
+  <h3>Articles</h3>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Mumbai" target="_blank">Visting Places(Google Search)</a></li>
+    <li><a href="https://fromheretoindia.com/places-to-visit-in-mumbai/" target="_blank">Landmarks of Mumbai(Google Search)</a></li>
+  </ul>
+  <h3>YouTube Videos</h3>
+  <iframe src="C:\Users\Mandala Gayathri\Downloads\WhatsApp Video 2024-12-12 at 11.49.25 PM.mp4" title="YouTube video player"></iframe>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="3" required></textarea><br>
+
+            <button type="submit">Submit</button>
+  </form>
+</section>
+
+<script>
+  // Simple JavaScript for smooth scrolling (optional)
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form from submitting
+
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Show alert with submitted information
+            alert('Form Submitted!\n\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+        });
+
+  
+</script>
+
+</body>
+</html>
